@@ -21,7 +21,7 @@ qtCarrinho = 0;
       function buscarProduto() {
         xhttp.open(
           "GET",
-          "https://desenvolvedorlevi84.github.io/prj-frontend/fake-api/produto.js"
+          "http://localhost:8080/api/produto/"
         );
         xhttp.send();
         xhttp.onload = function () {
